@@ -10,17 +10,8 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean class="com.springcore.Student" name="student1" >
+	<bean class="com.springcore.Student" name="student1" p:studentId="123" p:studentName="Rushi" p:studentCity="Pune" />
 	
-		<property name="studentId">
-			<value>101</value>
-		</property>
-		<property name="studentName">
-			<value>Rushi</value>
-		</property>
-		<property name="studentCity">
-			<value>Pune</value>
-		</property>
-	</bean>
+	
 	
 </beans>
