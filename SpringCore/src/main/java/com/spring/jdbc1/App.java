@@ -9,6 +9,7 @@ public class App {
 		// TODO Auto-generated method stub
 
 		ApplicationContext context=new AnnotationConfigApplicationContext(JdbcConfig.class);
+			context.getBean(null)
 	}
 
 }
