@@ -28,8 +28,7 @@ public class HomeController {
 		System.out.println("This Help Page ");
 		ModelAndView modelAndView=new ModelAndView();
 		modelAndView.addObject("name", "Rushi");
-		LocalDateTime now=new LocalDateTime.now();
-		modelAndView.addObject("Time", now);
+		
 		modelAndView.setViewName("help");
 		return modelAndView;
 	}
